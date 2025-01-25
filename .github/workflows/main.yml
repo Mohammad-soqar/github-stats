@@ -44,6 +44,7 @@ jobs:
         EXCLUDED_LANGS: ${{ secrets.EXCLUDED_LANGS }}
         EXCLUDE_FORKED_REPOS: true
 
+
     # Commit all changed files to the repository
     - name: Commit to the repo
       run: |
